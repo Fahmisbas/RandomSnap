@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "700211119369",
+    "firebase_url": "https://random-snap.firebaseio.com",
+    "project_id": "random-snap",
+    "storage_bucket": "random-snap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700211119369:android:d41b78d0aea2b60273ffd8",
+        "android_client_info": {
+          "package_name": "com.fahmisbas.randomsnap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700211119369-8hmol5kgbe448f34dnd3fmiq5kq2f90k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIHbjkAXg0lwBlTX38Muef_SWRTTwyzDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700211119369-8hmol5kgbe448f34dnd3fmiq5kq2f90k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
