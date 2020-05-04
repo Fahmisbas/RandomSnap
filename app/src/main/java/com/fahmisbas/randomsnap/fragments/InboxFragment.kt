@@ -32,7 +32,6 @@ class InboxFragment : Fragment() {
         rvUserInbox = view.findViewById(R.id.rv_userInbox)
         onItemClickListenet()
 
-        Log.i("disini","disini")
 
         FirebaseDatabase.getInstance().reference.child("users").child(auth.currentUser!!.uid).child("snaps")
             .addChildEventListener(object : ChildEventListener{
@@ -46,7 +45,6 @@ class InboxFragment : Fragment() {
                     user.imageurl = imageUrl
                     userList.add(user)
 
-                    Log.i("usernamee",user.userName)
 
                     adapter.notifyDataSetChanged()
                 }
